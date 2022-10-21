@@ -1,6 +1,6 @@
 {
   "name": "@baseland-io/baseland-types",
-  "version": "0.0.1-beta-02",
+  "version": "0.0.1-beta-04",
   "description": "The constants and types for the baseland network",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
