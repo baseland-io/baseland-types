@@ -10,7 +10,6 @@
     "baseUrl": "./src",
     "paths": {
       "~/*": ["./*"],
-      "~config": ["../config/index.ts"],
     },
     "plugins": [{"transform": "typescript-transform-paths"}]
   },

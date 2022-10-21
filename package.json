@@ -2,7 +2,8 @@
   "name": "@baseland-io/baseland-types",
   "version": "0.0.1-beta-01",
   "description": "The constants and types for the baseland network",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "prepublish": "npm run build",
   "scripts": {
     "build": "tsc",
