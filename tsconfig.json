@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es2019",
+    "module": "commonjs",
+    "outDir": "dist",
+    "strict": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "baseUrl": "./src",
+    "paths": {
+      "~/*": ["./*"],
+      "~config": ["../config/index.ts"],
+    },
+    "plugins": [{"transform": "typescript-transform-paths"}]
+  },
+  "exclude": ["node_modules"],
+  "include": ["src/**/*.ts"]
+}
