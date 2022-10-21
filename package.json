@@ -1,6 +1,6 @@
 {
   "name": "baseland-types",
-  "version": "0.0.1",
+  "version": "0.0.1-beta",
   "description": "The constants and types for the baseland network",
   "main": "index.js",
   "prepublish": "npm run build",
