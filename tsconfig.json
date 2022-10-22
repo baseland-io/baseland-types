@@ -6,15 +6,6 @@
     "outDir": "dist",
     "strict": true,
     "esModuleInterop": true,
-    "baseUrl": "./src",
-    "paths": {
-      "~/*": ["./*"],
-    },
-    "plugins": [
-      {
-        "transform": "typescript-transform-paths"
-      }
-    ],
   },
   "exclude": [
     "node_modules",

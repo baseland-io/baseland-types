@@ -1,7 +1,7 @@
 {
   "name": "@baseland-io/baseland-types",
-  "version": "0.0.1-beta-05",
-  "description": "The constants and types for the baseland network",
+  "version": "0.0.1",
+  "description": "The constants and type definitions for the baseland network",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "prepublish": "npm run build",
@@ -22,15 +22,12 @@
   },
   "homepage": "https://github.com/baseland-io/baseland-types#readme",
   "devDependencies": {
-    "@baseland-io/eslint-config-baseland": "^0.1.3",
-    "eslint": "^8.25.0",
-    "eslint-import-resolver-typescript": "^3.5.2",
-    "nodemon": "^2.0.20",
-    "ts-node": "^10.9.1",
-    "ts-node-dev": "^2.0.0",
-    "tsconfig-paths": "^4.1.0",
-    "typescript": "^4.8.4",
-    "typescript-transform-paths": "^3.4.1"
+    "@baseland-io/eslint-config-baseland": "^0.1.2",
+    "@types/node": "^18.7.14",
+    "@typescript-eslint/eslint-plugin": "^5.36.2",
+    "@typescript-eslint/parser": "^5.36.2",
+    "eslint": "^8.23.0",
+    "typescript": "^4.8.2"
   },
   "dependencies": {
   }
