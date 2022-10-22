@@ -1,0 +1,7 @@
+export default {
+  CHARGE_BACK: 'CHARGE_BACK',
+  EXPIRED: 'EXPIRED',
+  RECUR_FAILURE: 'RECUR_FAILURE',
+  REFUND: 'REFUND',
+  USER: 'USER',
+};
